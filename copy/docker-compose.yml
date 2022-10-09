@@ -25,7 +25,6 @@ services:
 
   database:
     image: mysql:latest
-    platform: linux/x86_64
     networks:
       codeigniter_net:
     ports:
